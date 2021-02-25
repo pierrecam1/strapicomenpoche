@@ -29,6 +29,15 @@
       "type": "component",
       "repeatable": false,
       "component": "head-block.head-block"
+    },
+    "sectionproject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project-content.project-content"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }

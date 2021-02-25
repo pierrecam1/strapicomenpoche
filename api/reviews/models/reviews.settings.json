@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "reviews",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "excerpt": {
+      "type": "string"
+    },
+    "google_link_review": {
+      "type": "string"
+    },
+    "picture_and_logos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "customer_job": {
+      "type": "string"
+    },
+    "customer_identity": {
+      "type": "string"
+    }
+  }
+}

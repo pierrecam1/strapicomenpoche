@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/q-and-as",
+      "handler": "q-and-a.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/q-and-as/count",
+      "handler": "q-and-a.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/q-and-as/:id",
+      "handler": "q-and-a.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/q-and-as",
+      "handler": "q-and-a.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/q-and-as/:id",
+      "handler": "q-and-a.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/q-and-as/:id",
+      "handler": "q-and-a.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

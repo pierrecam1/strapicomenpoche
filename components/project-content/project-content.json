@@ -1,20 +1,19 @@
 {
-  "collectionName": "components_head_block_head_blocks",
+  "collectionName": "components_project_content_project_contents",
   "info": {
-    "name": "headBlock",
-    "icon": "ad",
-    "description": ""
+    "name": "Project-content",
+    "icon": "border-all"
   },
   "options": {},
   "attributes": {
-    "headTitle": {
+    "contentTitle": {
       "type": "string"
     },
-    "headDescription": {
+    "contentText": {
       "type": "richtext"
     },
-    "headPicture": {
-      "model": "file",
+    "contentPictures": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

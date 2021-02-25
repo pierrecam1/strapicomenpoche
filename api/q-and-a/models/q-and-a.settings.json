@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "q_and_as",
+  "info": {
+    "name": "Q&A"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}
